@@ -22,6 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.json",
+            "aot": true,
             "assets": [
               "src/assets"
             ],
@@ -41,7 +42,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": false,
               "vendorChunk": false,
               "buildOptimizer": true,
