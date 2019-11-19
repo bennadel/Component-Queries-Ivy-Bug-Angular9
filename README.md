@@ -2,7 +2,18 @@ README.md
 
 # Possible Component Queries Bug When Running Ivy In Non-Production Mode In Angular 9.0.0-rc.2
 
-**UPDATE: 2019-11-19** - [Jeffrey Bosch](https://jefiozie.github.io/) was able to [figure out](https://github.com/bennadel/Component-Queries-Ivy-Bug-Angular9/pull/1/files) what was going on. He moved my `"aot":true` configuration up from the `production` options and into the core `build` options. Apparently this was part of a CLI migration a while back. But, I don't use the CLI on an ongoing basis; really, I just copy-paste one configuration from one demo to another. Huge thanks to Jeffrey!
+**UPDATE: 2019-11-19** - [Jeffrey Bosch](https://jefiozie.github.io/) was able to [figure out](https://github.com/bennadel/Component-Queries-Ivy-Bug-Angular9/pull/1/files) what was going on. He moved my `"aot":true` configuration up from the `production` options and into the core `build` options. Apparently this was part of a CLI migration a while back. But, I don't use the CLI on an ongoing basis; really, I just copy-paste one configuration from one demo to another.
+
+<p align="center">
+	<img
+		src="./like-a-boss.gif?raw=true"
+		width="498"
+		height="226"
+		style="display: block ; border: 5px solid #cccccc ;"
+	/>	
+</p>
+
+**Huge thanks** to Jeffrey!
 
 ----
 
